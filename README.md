@@ -17,3 +17,9 @@ Loss (e^-3) 128 LS | 8.20 :five: | 7.10 :three: | 6.80 :two: | 6.50 :1st_place_m
 Loss (e^-3) 64 LS | 10.20 :four: | 9.50 :three: | 8.80 :1st_place_medal: | 9.30 :two: | 18.90 :five:
 Loss (e^-3) 32 LS | ---- | 14.10 :three: | 12.90 :1st_place_medal: | 13.10 :two: | 14.20 :four:
 Loss (e^-3) 16 LS | ---- | 18.80 :three: | 17.30 :1st_place_medal: | 18.00 :two: | 19.50 :four:
+
+## Same topologies with batch normalization
+Autoencoder id | #1 | #2 | #3 | #4 | #5
+--- | --- | --- | --- |--- |---
+Loss (e^-3) 128 LS | 5.50 | 5.30 :trophy: | 5.60 | 5.30 | 7.50 
+Loss (e^-3) 64 LS | 8.00 :trophy: | 8.20 | 8.30 | 8.30 | 10.20 
