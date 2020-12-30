@@ -350,7 +350,7 @@ class AutoencoderManu:
         # Plotting the results
         plt.plot(history.history['loss'])
         plt.plot(history.history['val_loss'])
-        plt.savefig('loss' + str(self.id_topology) + '.png')
+        plt.savefig('cp_manu/losses/loss' + str(self.id_topology) + '_latent' + str(self.latent_dimension) + '.png')
         if self.plot:
             plt.show()
         plt.clf()
