@@ -18,8 +18,15 @@ Loss (e^-3) 64 LS | 10.20 :four: | 9.50 :three: | 8.80 :1st_place_medal: | 9.30 
 Loss (e^-3) 32 LS | ---- | 14.10 :three: | 12.90 :1st_place_medal: | 13.10 :two: | 14.20 :four:
 Loss (e^-3) 16 LS | ---- | 18.80 :three: | 17.30 :1st_place_medal: | 18.00 :two: | 19.50 :four:
 
-## Same topologies with batch normalization
+## Batch Normalized Topologies (50 epochs)
+Obtained with learning rate 1e-04 and batch size 256
 Autoencoder id | #1 | #2 | #3 | #4 | #5
 --- | --- | --- | --- |--- |---
-Loss (e^-3) 128 LS | 5.50 | 5.30 :trophy: | 5.60 | 5.30 | 7.50 
-Loss (e^-3) 64 LS | 8.00 :trophy: | 8.20 | 8.30 | 8.30 | 10.20 
+Loss (e^-3) 2048 LS | 2.9 | 2.5 | 24 | 1.2 :trophy: | 1.6 
+Loss (e^-3) 1024 LS | 2.8 | 2.6 | 2.4 | 1.3 :trophy: | 2.3 
+Loss (e^-3) 512 LS | 3.0 | 2.8 | 2.7 | 1.6 :trophy: | 2.9 
+Loss (e^-3) 256 LS | 3.4 | 3.2 | 3.5 | 2.9 :trophy: | 4.9 
+Loss (e^-3) 128 LS | 4.9 | 4.9 | 5.0 :trophy: | 5.1 | 7.9 
+Loss (e^-3) 64 LS | 7.8 | 7.7 :trophy: | 7.8 | 8.1 | 10.1 
+
+
